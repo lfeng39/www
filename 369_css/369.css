@@ -1,0 +1,166 @@
+@import 'fonts.css';
+*{
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
+  /* border-radius: 2px; */
+}
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body{
+  /*为footer提供定位*/
+  position: relative;
+  /* background: #b61b00; */
+}
+
+div.top{
+  height: 55px;
+  background: #cc1f00;
+  /* border: 2px solid #000; */
+}
+
+div.wrap{
+  min-height: 1000px;
+  /* background: #005028; */
+  /* border: 2px solid #000; 005028*/
+}
+
+footer{
+  /*相对body定位*/
+  /* position: absolute; */
+  /* bottom: 0px; */
+  /* left: -4px; */
+  width: 100%;
+  min-height: 150px;
+  margin: 10px 0 0 0;
+  padding: 0;
+  background: #cc1f00;
+  /* border: 2px solid #000; */
+}
+
+.nav_focus{
+  border-bottom: 3px solid #ff6666;
+}
+.clear{
+  clear: both;
+}
+
+@media screen and (min-width: 2560px) { /*大于2560*/
+  .nav{
+      width: 1280px;
+      margin: 0 auto;
+  }
+
+}
+@media screen and (max-width: 2560px) { /*小于2560*/
+  .nav{
+      width: 1280px;
+      margin: 0 auto;
+  }
+
+}
+
+div.nav{
+  height: 55px;
+  padding: 0 10px;
+}
+
+div.nav > div > a.trenovkr_logo{
+  display: block;
+  /* height: 55px; */
+  line-height: 55px;
+  /* margin: 0 30px; */
+  /* padding: 0 3px; */
+  font-family: 'wendy one';
+  /* font-size: 18px; */
+  /* border: 1px solid #000; */
+}
+
+div.nav > div, div.nav > div > ul > li{
+  float: left;
+  /* border: 2px solid #000;  */
+}
+div.nav > div > ul, div.nav > div > ul > li{
+  line-height: 52px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+div.nav > div > ul > li{
+  margin-left: 30px;
+  text-align: center;
+}
+
+div.nav > div:last-child{
+  float: right;
+  width: 100px;
+  line-height: 55px;
+  background: rgba(226, 226, 226, 0.6);
+}
+
+div.nav > div > ul.project > li > h2 > a{
+  color: #666;/* 导航文字颜色设置 */
+}
+div.nav > div > ul.project > li > h2 > a:hover{
+  color: #000;/* 导航文字颜色设置 */
+}
+
+div.wrap > div.worth{
+  width: 1920px;
+  margin: 0 auto;
+  /* overflow: hidden; */
+}
+div.wrap > div.worth > div.unit-1{
+  min-height: 693px;
+  background: rgb(221, 255, 202);
+}
+
+div.wrap > div.worth > div.unit-2{
+  float: left;
+  width: 945px;
+  min-height: 693px;
+  background: rgb(221, 255, 202);
+  margin: 10px 0 0 10px;
+}
+
+div.wrap > div.worth > div.unit-3{
+  float: left;
+  width: 626px;
+  min-height: 693px;
+  background: rgb(221, 255, 202);
+  margin: 10px 0 0 10px;
+}
+
+div.wrap > div.worth > div.unit-4{
+  float: left;
+  width: 467px;
+  min-height: 693px;
+  background: rgb(221, 255, 202);
+  margin: 10px 0 0 10px;
+}
+
+footer > div{
+  border: solid 1px #000;
+  width: 1280px;
+  /* min-height: 300px; */
+  margin: 0 auto;
+  padding: 0 10px;
+}
+footer > div > div{
+  overflow: hidden;
+}
+
+footer > div > div > ul{
+  float: left;
+  padding: 0;
+  margin-right: 60px;
+  border: solid 1px #000;
+}
+footer > div > div > ul >li{
+  list-style: none;
+  padding: 0;
+}
