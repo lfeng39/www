@@ -39,10 +39,12 @@ div.worth{
   /* overflow: hidden; */
 }
 div.worth > div{
-  margin: 5px;
+  margin-top: 0;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  margin-left: 5px;
   background: rgb(250, 255, 247);
-  margin: 5px;
-  min-height: 200px;
+  /* min-height: 200px; */
 }
 
 .widget{
