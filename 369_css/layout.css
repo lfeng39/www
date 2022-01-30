@@ -7,7 +7,7 @@ div.nav{
 
 div.nav > div{
   float: left;
-  line-height: 55px;
+  line-height: 52px;
   margin-right: 30px;
   margin-left: 5px;
   font-family: 'wendy one';
@@ -45,6 +45,29 @@ div.worth > div{
   min-height: 200px;
 }
 
+.widget{
+  /* width: 1280px; */
+  min-height: auto;
+  padding: 8px 0;
+  background: rgb(235, 235, 235);
+}
+.buyWidget{
+  width: 1280px;
+  margin: 0 auto;
+}
+.buyWidget > div > a.buyLink{
+  display: block;
+  width: 88px;
+  height: 33px;
+  line-height: 33px;
+  border-radius: 16px;
+  background: rgb(255, 0, 0);
+  text-align: center;
+  float: right;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
 
 .flex_container{
   display: flex;
@@ -59,7 +82,7 @@ div.worth > div{
 }
 
 footer > div{
-  border: solid 1px #000;
+  /* border: solid 1px #000; */
   width: 1280px;
   /* min-height: 300px; */
   margin: 0 auto;
@@ -73,7 +96,7 @@ footer > div > div > ul{
   float: left;
   padding: 0;
   margin-right: 60px;
-  border: solid 1px #000;
+  /* border: solid 1px #000; */
 }
 footer > div > div > ul >li{
   list-style: none;

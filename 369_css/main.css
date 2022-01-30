@@ -19,7 +19,7 @@ body{
 }
 
 div.top{
-  height: 55px;
+  min-height: auto;
   background: #cc1f00;
   
   /* border: 2px solid #000; */
